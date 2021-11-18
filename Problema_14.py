@@ -1,0 +1,5 @@
+a = set(input('Introduceti primul sir, elementele fiind separate prin spatiu: ').split())
+b = set(input('Introduceti primul sir, elementele fiind separate prin spatiu: ').split())
+print(f'Caracterele care se întâlnesc cel puţin în unul dintre şiruri: {a.union(b)}')
+print(f'Caracterele care apar în ambele şiruri: {a.intersection(b)}')
+print(f'Caracterele care apar în primul şi nu apar în şirul al doilea: {a.difference(b)}')
